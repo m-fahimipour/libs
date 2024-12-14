@@ -33,6 +33,9 @@ module.exports = {
   externals: {
     react: "react",
     "react-dom": "react-dom",
+    "@emotion/react": "@emotion/react",
+    "@emotion/styled": "@emotion/styled",
+    "@mui/material": "@mui/material",
   },
   resolve: {
     extensions: [".js", ".jsx", ".ts", ".tsx"],

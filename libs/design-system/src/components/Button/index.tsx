@@ -1,8 +1,9 @@
+import { Button } from "@mui/material";
 import { useState } from "react";
 
-function Button() {
+function CustomButton() {
   const [count, setCount] = useState(0);
-  return <button onClick={() => setCount((c) => c + 1)}>button {count}</button>;
+  return <Button onClick={() => setCount((c) => c + 1)}>button {count}</Button>;
 }
 
-export default Button;
+export default CustomButton;
